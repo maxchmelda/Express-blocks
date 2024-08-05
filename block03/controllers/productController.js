@@ -61,7 +61,7 @@ exports.addProduct = async (req, res) => {
 
 exports.deleteProduct = async (req, res) => {
     try {
-        const productName = req.body.product.name;
+        const productName = req.body.name;
         const category = await Category.findOne({ 'products.name': productName });
 
         if (!category) {

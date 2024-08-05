@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.category-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.category-name {
+    text-decoration: underline;
+}
+
+.product-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem 2rem;
+}
+
+.add-product-wrapper, .rename-category {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.product-wrapper {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.add-category {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.bottom-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem
+}
